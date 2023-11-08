@@ -1,0 +1,74 @@
+:root {
+  --background: #fffaeb;
+  --pirmary: #ff8400;
+  --secondary: #fff5d6;
+  --accent: #c87114;
+}
+
+body {
+  background-color: var(--background);
+  font-family: "Poppins", sans-serif;
+}
+.nav-bar {
+  background-color: var(--background) !important;
+}
+i {
+  color: #c87114;
+}
+.navbar-brand {
+  font-weight: 800;
+}
+.dropdown-contianer {
+  background-color: var(--secondary);
+}
+#dropdownMenuButton {
+  font-weight: 600;
+}
+#intro-example {
+  height: 80vh !important;
+  min-width: 100% !important;
+}
+@media screen and (max-width: 426px) {
+  .header-container {
+    font-size: 0.6rem;
+  }
+  .text-container a {
+    font-size: 0.6rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px !important;
+  }
+}
+
+.learn-more {
+  background-color: var(--secondary) !important;
+  color: black !important;
+}
+.learn-more:hover {
+  background-color: black !important;
+  color: var(--secondary) !important;
+}
+footer {
+  background-color: var(--secondary);
+}
+.secondary-footer {
+  background-color: var(--secondary);
+}
+.card-container {
+  row-gap: 15px !important;
+}
+.dropdown-toggle {
+  font-weight: bold;
+}
+@media (min-width: 1439px) {
+  #watchDescription {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 2.5rem !important;
+    font-weight: 800;
+  }
+  .dropdown-toggle {
+    font-size: 1.2rem !important;
+  }
+}
